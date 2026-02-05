@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Für Cagla 💜</title>
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #2b1055, #7597de);
+      color: white;
+      font-family: "Arial", sans-serif;
+      text-align: center;
+      padding: 40px;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      animation: fadeIn 2s;
+    }
+
+    p {
+      font-size: 1.3em;
+      max-width: 700px;
+      margin: 20px auto;
+      line-height: 1.6;
+      animation: fadeIn 3s;
+    }
+
+    .heart {
+      font-size: 2em;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Hey Cagla 💜</h1>
+
+  <p>
+    Kleine Überraschung für dich 😌✨<br><br>
+
+    Wir wollten dir einfach sagen:<br>
+    Wir sind MEGA stolz auf dich. Wirklich. 💪💜<br><br>
+
+    Dass du wieder am Start bist auf Twitch = 🔥🔥🔥<br>
+    Dein Comeback ist einfach stark.<br><br>
+
+    Du motivierst, du bringst Leute zum Lachen,<br>
+    und du bist einfach besonders. 😏✨<br><br>
+
+    Bleib genau so wie du bist.<br>
+    Wir feiern dich. Immer. 🎉💜
+  </p>
+
+  <div class="heart">💖💖💖</div>
+
+  <p style="margin-top:40px;">
+    – Von Leuten, die an dich glauben (Habub/Samo) 😌
+  </p>
+
+</body>
+</html>
